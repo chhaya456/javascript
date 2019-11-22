@@ -1,0 +1,6 @@
+var message="Hello";
+var name= prompt("Please type your message in 280 words over here:");
+
+var userMessage= name.length;
+var leftMessage = (280-name.length);
+alert("You have written " +userMessage+" characters, You have "+ leftMessage+ " character left.");
