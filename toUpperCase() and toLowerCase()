@@ -1,0 +1,7 @@
+
+
+var name;
+var name = prompt("Hello, Please enter Your Name in Lowercase/Uppercase only: " +name);
+var upperName = name.toUpperCase();
+var lowerName = name.toLowerCase();
+alert("Hello , "+upperName.slice(0,1)+ lowerName.slice(1,6));
