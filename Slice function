@@ -1,0 +1,7 @@
+var message= prompt("Please type your message in 280 words over here:");
+
+ var count= message.length;
+ var leftMessage = (280-message.length);
+ alert("You have written " +count+" characters, You have "+ leftMessage+ " character left.");
+ var yourMessage = message.slice(0,280);
+alert("Your message under 280 words: "+ yourMessage);
