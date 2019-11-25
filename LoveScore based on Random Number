@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Love Calculator</h2>
+
+<p>With The Love Calculator you can calculate the probability of a successful relationship between two people. Your Lovescore is:</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random() * 100) +1;
+prompt("please Enter your name");
+prompt("please Enter your name");
+</script>
+
+</body>
+</html>
