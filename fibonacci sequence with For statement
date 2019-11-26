@@ -1,0 +1,21 @@
+var outPut=[];
+var a =[];
+var b;
+a= 0;
+b=1;
+outPut = b;
+function fibonacciGenerator (n) {
+    //TODO 
+    
+    for(var i=0; i<n; i++){
+   
+       outPut =a+b;
+   console.log(a);
+       a=b;
+       
+       b= outPut;
+     }
+
+}
+
+fibonacciGenerator (3);
