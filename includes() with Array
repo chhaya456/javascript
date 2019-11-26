@@ -1,0 +1,12 @@
+var guestList = ["Chhaya", "Dipak", "Angela"];
+var checkList= prompt("What is your Name?");
+
+if (guestList.includes(checkList)){
+  alert("Welcome");
+}else{
+  alert("Sorry, maybe next time");
+}
+
+
+/////OUTPUT//
+RETURN BOOLEN ANSWER :TRUE/FALSE
