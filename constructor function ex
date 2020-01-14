@@ -1,0 +1,12 @@
+function HouseKeeper(name,age,experience,hotels){
+    this.name = name;
+    this.age= age;
+    this.experience=experience;
+    this.hotels=hotels;
+    this.cleanRoom = function () {
+       alert("May I Clean your Room? ");
+        clean();
+    };
+   }
+
+var houseKeeper1 = new HouseKeeper("Ally",25,4,["Ma","pa"]);
