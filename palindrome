@@ -1,0 +1,24 @@
+function isPalindrome(str){
+var oStr = str;
+//console.log(oStr);
+var a = oStr.length-1;
+//console.log(a);
+var rStr = '';
+//console.log(rStr);
+
+for(var i = a ; i >= 0 ; i--){
+//console.log(oStr[i]);
+
+rStr = rStr + oStr[i];
+//console.log(rstr);
+}
+console.log(rStr);
+
+if(oStr == rStr){
+console.log("true");
+}
+else{
+console.log("false");
+}
+}
+isPalindrome('madam');
