@@ -1,0 +1,48 @@
+var name = "Hello";
+
+var a = name.length -1;
+console.log(a);
+
+for(i =0; i<= a; i++){
+console.log(name[i],i);
+}
+
+//Reverse String 
+
+for (i = a ; i>=0 ; i--){
+console.log(name[i],i);
+}
+
+
+//Reverse String with for loop
+
+var revName = "";
+
+for(i = a; i >= 0 ; i--){
+ 
+ revName = revName + name[i];
+
+}
+console.log(revName);
+
+//Reverse String with reverese function
+//first split which converts string into Array
+//second reverse using reverse function
+//third join which converts Array to String
+
+
+var splitName = name.split('');
+console.log(splitName);
+
+var rName = splitName.reverse();
+console.log(rName);
+
+var joinName = rName.join('');
+console.log(joinName);
+
+////// another way
+var newName = "";
+function reverseName(name){
+return name.split('').reverse().join('');
+}
+
