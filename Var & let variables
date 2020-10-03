@@ -1,0 +1,11 @@
+let t =4;
+
+var y = function (){
+
+let x = 7;
+
+console.log(x);//7
+
+}
+y();
+console.log(t);//4
