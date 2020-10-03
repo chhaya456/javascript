@@ -1,0 +1,17 @@
+var fruits = ['Banana', 'Orange', 'Apple', 'Kiwi'];
+
+//fruits.sort();
+console.log(fruits.sort());
+console.log(fruits.reverse());
+fruits.push('Kiwi');
+console.log(fruits);
+
+var position = fruits.indexOf('Orange'); //looking from first index 
+console.log(position);
+
+var lastPosition = fruits.lastIndexOf('Kiwi');
+console.log(lastPosition);
+
+
+var lastPosition = fruits.lastIndexOf('kiwi');
+console.log(lastPosition);//-1 indicates that does not exist.
