@@ -1,0 +1,29 @@
+var fruits =  ['Banana','Apple','Kiwi','Orange', 'Mango', 'Pomegranate' ,'Watermelon', 'Pears', 'Strawberries', 'Blueberries'];
+
+console.log(fruits.length);
+
+for(var i = 0; i <fruits.length; i++){
+console.log(fruits[i], i);
+
+}
+
+//print alternate elements
+
+for(var i = 0 ; i< fruits.length ; i = i +2){
+console.log(fruits[i],i);
+}
+
+//print every 3rd element
+
+for(var i = 0; i < fruits.length ; i =i+3){
+console.log(fruits[i],i);
+}
+
+
+//print in reverse order
+
+var reverseFruits = fruits.length -1;
+console.log(reverseFruits);
+for(var i = reverseFruits ; i >=0; i--){
+console.log(fruits[i],i);
+}
