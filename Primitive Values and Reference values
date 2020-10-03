@@ -1,0 +1,52 @@
+///Primitive Values
+var a = 1;
+var b = a;//trying to paste values of a
+console.log(a);
+console.log(b);
+
+var b = 1;
+console.log(b);
+
+
+
+if (a == b){
+ console.log("true");
+ }
+ else{
+ console.log("false");
+ }
+
+var name = "apple";
+console.log(name);
+var upperName = name.toUpperCase();//create new variable in memory,orignal  value of name variable can't change. can't change OR MUTATE.
+console.log(upperName);//APPLE
+
+
+
+
+///Reference Values
+var x = [1,2];
+var y = x;//trying to paste memory address of x , NOT A VALUE BECAUSE VALUE IS STORED IN HEAP
+console.log(x);
+console.log(y);
+y.push(3);
+console.log(x);
+console.log(y);
+
+var y = [4,5];//completly new variable with new memory address.
+console.log(y);
+
+var y = [1,2];//completly new variable with new memory address.
+console.log(y);
+ 
+ if (x == y){
+ console.log("true");
+ }
+ else{
+ console.log("false");
+ }
+ 
+ 
+ var number = [3,4,5];
+ number.push(6);//mutating, modifying orignal variable.
+ console.log(number);
