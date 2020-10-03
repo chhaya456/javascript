@@ -1,0 +1,18 @@
+var x = [];
+console.log(x);//empty string '' []
+console.log(x + 1);//1
+
+if(x == 0){
+console.log("true");//true
+}
+
+var y = {};// not empty sting''
+console.log(y);// Instead of empty string , ''[objct Object]''
+console.log(y +1);//"[object Object]1"
+
+if (y == 0){
+console.log("true");
+}else{
+console.log("false");
+}      //false
+
