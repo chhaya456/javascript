@@ -1,0 +1,17 @@
+var name = "hello world";
+console.log(name);
+var nameArray = name.split("");
+console.log(nameArray);
+
+nameArray.forEach(output);
+
+function output(item,index,array){
+//console.log(item,index);
+if (item === "h"){
+item = item.toUpperCase();
+}else{
+item = item.toLowerCase();
+}
+console.log(item,index);
+
+}
