@@ -1,0 +1,42 @@
+function sum(a,b){///parameter vales are default
+console.log(a+b);
+}
+sum(3,5);//
+
+
+var sum = function(a1,b1){
+console.log(a1+b1);
+};
+sum(4,6);
+
+var sum = function(a2,b2){
+sum =a2 + b2;
+console.log(sum);
+};
+sum(2,4);
+
+
+ ///return
+
+var cal = function(r,t){
+return 3*6;
+
+};
+var ans = cal(3,6);
+console.log(ans);
+
+
+
+var calculator = function(x,y){
+
+var addition = x+y;
+var sub = x-y;
+var mul = x*y;
+var division = x/y;
+console.log('Addition of ' +  x +" and "+ " "+ y , addition);
+console.log('Subtraction of ' +  x +" and "+ " "+ y , sub);
+console.log('Multiplication of ' +  x +" and "+ " "+ y , mul);
+console.log('Division of ' +  x +" and "+ " "+ y , division);
+
+};
+calculator(4,2);
