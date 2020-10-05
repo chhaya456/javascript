@@ -1,0 +1,24 @@
+///function Declaration
+
+function output1(){
+
+console.log('Hello1');
+}
+output1();
+
+///Hoisting example
+output3();
+function output3(){
+
+console.log('Hello3');
+}
+
+
+
+
+////function Expression
+
+var output2 = function(){
+console.log("Hello2");
+}; ///semocolon is required bcause it is statement
+output2();
