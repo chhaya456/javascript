@@ -1,0 +1,19 @@
+////regular function
+
+var greet1 = function(msg){
+return msg ;
+};
+var greet1 = greet1("Hello");
+ console.log('1',greet1);
+ 
+ 
+ ///with Arrow function
+ var greet2 = msg1 => msg1;
+ var greet2 = greet2("Hello");
+ console.log('2',greet2);
+ 
+/*  const greet = function(){
+ return "hello World";
+ }; */
+ 
+ const greet = () => "hello world";
