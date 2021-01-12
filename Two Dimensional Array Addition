@@ -1,0 +1,16 @@
+const arr = [[1,2], [3,4],[4,2]];
+
+var result = 0;
+for(var i = 0; i< arr.length; i++){
+var innerResult = 0;
+for(var j = 0; j<arr[i].length; j++){
+
+innerResult = innerResult + arr[i][j];
+}
+
+result = result + innerResult;
+
+
+}
+
+console.log(result);////output 16
